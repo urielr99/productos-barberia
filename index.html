@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insumos Sur - Catálogo</title>
+    <link rel="icon" type="image/png" href="tijera-y-peine.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Equipamiento de <span>Primer Nivel</span></div>
+        <div class="wp-config">
+            <span>WhatsApp :</span>
+            <span class="phone-display" id="phoneDisplay"></span>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Productos pensados para vos</h1>
+        <p>Hace tu pedido directo por WhatsApp</p>
+    </section>
+
+    <main class="container">
+        <div class="section-header">
+            <h2 class="section-title">Nuestros Productos</h2>
+            <p class="section-subtitle">Selecciona un producto para consultar stock o realizar un pedido</p>
+        </div>
+
+        <div class="search-container">
+            <input type="text" id="searchInput" class="search-input" placeholder="Buscar insumos (Ej. secadora de pelo, tijera, gel)...">
+        </div>
+
+        <div class="products-grid" id="productsGrid">
+
+        </div>
+        
+        <div class="no-results" id="noResults">
+            No se encontraron productos que coincidan con tu búsqueda.
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Insumos Barbería. Catálogo Digital Directo a WhatsApp.</p>
+    </footer>
+
+    <!-- Vincula el archivo JS -->
+    <script src="app.js"></script>
+</body>
+</html>
