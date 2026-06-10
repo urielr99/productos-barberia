@@ -1,4 +1,3 @@
-// CONFIGURACIÓN: Tu número de WhatsApp
 const WHATSAPP_PHONE = "595994784077"; 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -12,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
             nombre: "VGR CUPPER",
             descripcion: "Máquina de corte profesional",
             precio: "$85.000",
-            imagen: "../img/maquina1.jpeg",
+            imagen: "img/maquina1.jpeg",
             categoria: "maquina"
         },
         {
@@ -20,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
             nombre: "VGR SHAVER",
             descripcion: "Tijera ",
             precio: "$45.500",
-            imagen: "../img/maquina2.jpeg",
+            imagen: "img/maquina2.jpeg",
             categoria: "maquina"
         },
         {
@@ -28,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
             nombre: "VGR SHAVER - MODELO V-886T",
             descripcion: "Portanavajas ",
             precio: "$22.000",
-            imagen: "../img/maquina3.jpeg",
+            imagen: "img/maquina3.jpeg",
             categoria: "maquina"
         },
         {
