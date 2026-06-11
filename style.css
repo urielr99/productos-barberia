@@ -34,6 +34,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 100;
+    min-height: 110px;
 }
 
 .logo {
@@ -295,8 +296,55 @@ footer {
     border-color: var(--text-primary);
 }
 
+.logo-medio {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-medio img {
+    height: 105px;
+    width: auto;
+    display: block;
+    mix-blend-mode: screen; 
+    filter: brightness(1.2);
+}
 
 @media (max-width: 768px) {
     .hero h1 { font-size: 2.2rem; }
     header { flex-direction: column; gap: 15px; text-align: center; }
+}
+@media (max-width: 850px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding: 20px 10px;
+        min-height: auto; 
+    }
+
+    .logo-medio {
+        position: static;
+        transform: none;
+        order: 1;
+        margin-bottom: 5px;
+        filter: brightness(1.2);
+    }
+
+    .logo {
+        order: 2;
+        text-align: center;
+        font-size: 1.1rem;
+        filter: brightness(1.2);
+    }
+
+    .wp-config {
+        order: 3;
+        width: auto;
+    }
 }
