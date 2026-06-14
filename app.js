@@ -5,6 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
     if (phoneDisplay) {
         phoneDisplay.textContent = "+" + WHATSAPP_PHONE.replace(/(\d{2})(\d{1})(\d{2})(\d{4})(\d{4})/, "$1 $2 $3 $4-$5");
     }
+    const wpHeaderLink = document.getElementById('wpHeaderLink');
+    if (wpHeaderLink) {
+        wpHeaderLink.href = `https://wa.me/${WHATSAPP_PHONE}`;
+    }
     const productos = [
         {
             id: 1,

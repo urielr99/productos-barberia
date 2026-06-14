@@ -314,6 +314,24 @@ footer {
     filter: brightness(1.2);
 }
 
+.btn-header-wp {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-header-wp:hover {
+    border-color: #25D366;
+    background-color: rgba(37, 211, 102, 0.05); 
+}
+
+.btn-header-wp span {
+    color: var(--text-secondary); 
+}
+
+.btn-header-wp .phone-display {
+    color: var(--text-primary); 
+}
+
 @media (max-width: 768px) {
     .hero h1 { font-size: 2.2rem; }
     header { flex-direction: column; gap: 15px; text-align: center; }
