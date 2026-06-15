@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const productos = [
         {
             id: 1,
-            nombre: "VGR CUPPER",
+            nombre: "VGR CLIPPER",
             descripcion: "Máquina de corte profesional",
             precio: "$85.000",
             imagen: "img/maquina1.jpeg",
@@ -36,44 +36,60 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             id: 4,
-            nombre: "ONYX C",
-            descripcion: "Gel para afeitar",
+            nombre: "JRL ONYX TRIMMER",
+            descripcion: "Maquina patillera",
             precio: "800.000 Gs",
             imagen: "img/ONYXC.jpg",
             categoria: "maquina"
         },
         {
             id: 5,
-            nombre: "ONYX S",
-            descripcion: "Capa extra grande",
+            nombre: "JRL ONYX SHAVER",
+            descripcion: "Maquina afeitadora",
             precio: "750.000 Gs",
             imagen: "img/ONYX_S.jpg",
             categoria: "maquina"
         },
         {
             id: 6,
-            nombre: "ONYX CC",
-            descripcion: "Especial para limpieza",
+            nombre: "JRL ONYX CLIPPER",
+            descripcion: "Maquita corta pelo",
             precio: "900.000 Gs",
             imagen: "img/ONYX_CC.jpg",
             categoria: "maquina"
         },
         {
             id: 7,
-            nombre: "VAPOR 1",
-            descripcion: "Fijación fuerte",
+            nombre: "WAHL VAPOR CLIPPER",
+            descripcion: "Maquina corta pelo",
             precio: "1.000.000 Gs",
             imagen: "img/VAPOR_1.jpg",
             categoria: "maquina"
         },
-        // {
-        //     id: 8,
-        //     nombre: "Aceite",
-        //     descripcion: "aceite",
-        //     precio: "$11.500",
-        //     imagen: "https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        //     categoria: "insumo"
-        // }
+        {
+            id: 8,
+            nombre: "VGR V886 TRIMMER",
+            descripcion: "Maquina patillera",
+            precio: "$11.500",
+            imagen: "img/VGR.jpg",
+            categoria: "maquina"
+        },
+        {
+            id:9,
+            nombre:"VGR V378 SHAVER",
+            descripcion:"Maquina afeitadora",
+            precio:"15.500",
+            imagen:"img/VGR2.jpg",
+            categoria:"maquina"
+        },
+        {
+            id:9,
+            nombre:"VGR VECTOR CLIPPER",
+            descripcion:"Maquina corta pelo",
+            precio:"15000",
+            imagen:"img/VGR3.jpg",
+            categoria:"maquina"
+        }
     ];
 
     const productsGrid = document.getElementById('productsGrid');
