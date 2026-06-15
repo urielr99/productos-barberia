@@ -36,44 +36,44 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             id: 4,
-            nombre: "Gel",
+            nombre: "ONYX C",
             descripcion: "Gel para afeitar",
-            precio: "$12.900",
-            imagen: "https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-            categoria: "insumo"
+            precio: "800.000 Gs",
+            imagen: "img/ONYXC.jpg",
+            categoria: "maquina"
         },
         {
             id: 5,
-            nombre: "Capa de Corte",
+            nombre: "ONYX S",
             descripcion: "Capa extra grande",
-            precio: "$15.000",
-            imagen: "https://images.unsplash.com/photo-1593726853243-d9f7831d8e12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-            categoria: "insumo"
+            precio: "750.000 Gs",
+            imagen: "img/ONYX_S.jpg",
+            categoria: "maquina"
         },
         {
             id: 6,
-            nombre: "Cepillo",
+            nombre: "ONYX CC",
             descripcion: "Especial para limpieza",
-            precio: "$8.500",
-            imagen: "https://images.unsplash.com/photo-1599305090598-fe179d501227?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-            categoria: "insumo"
+            precio: "900.000 Gs",
+            imagen: "img/ONYX_CC.jpg",
+            categoria: "maquina"
         },
         {
             id: 7,
-            nombre: "Pomada",
+            nombre: "VAPOR 1",
             descripcion: "Fijación fuerte",
-            precio: "$14.200",
-            imagen: "https://images.unsplash.com/photo-1621607512214-68297480165e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-            categoria: "insumo"
+            precio: "1.000.000 Gs",
+            imagen: "img/VAPOR_1.jpg",
+            categoria: "maquina"
         },
-        {
-            id: 8,
-            nombre: "Aceite",
-            descripcion: "aceite",
-            precio: "$11.500",
-            imagen: "https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-            categoria: "insumo"
-        }
+        // {
+        //     id: 8,
+        //     nombre: "Aceite",
+        //     descripcion: "aceite",
+        //     precio: "$11.500",
+        //     imagen: "https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        //     categoria: "insumo"
+        // }
     ];
 
     const productsGrid = document.getElementById('productsGrid');
