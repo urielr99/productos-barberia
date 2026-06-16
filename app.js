@@ -12,30 +12,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const productos = [
         {
             id: 1,
-            nombre: "VGR CLIPPER",
-            descripcion: "Máquina de corte profesional",
-            precio: "$85.000",
-            imagen: "img/maquina1.jpeg",
-            categoria: "maquina"
-        },
-        {
-            id: 2,
-            nombre: "VGR SHAVER",
-            descripcion: "Tijera ",
-            precio: "$45.500",
-            imagen: "img/maquina2.jpeg",
-            categoria: "maquina"
-        },
-        {
-            id: 3,
-            nombre: "VGR SHAVER - MODELO V-886T",
-            descripcion: "Portanavajas ",
-            precio: "$22.000",
-            imagen: "img/maquina3.jpeg",
-            categoria: "maquina"
-        },
-        {
-            id: 4,
             nombre: "JRL ONYX TRIMMER",
             descripcion: "Maquina patillera",
             precio: "800.000 Gs",
@@ -43,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
             categoria: "maquina"
         },
         {
-            id: 5,
+            id: 2,
             nombre: "JRL ONYX SHAVER",
             descripcion: "Maquina afeitadora",
             precio: "750.000 Gs",
@@ -51,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
             categoria: "maquina"
         },
         {
-            id: 6,
+            id: 3,
             nombre: "JRL ONYX CLIPPER",
             descripcion: "Maquita corta pelo",
             precio: "900.000 Gs",
@@ -59,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
             categoria: "maquina"
         },
         {
-            id: 7,
+            id: 4,
             nombre: "WAHL VAPOR CLIPPER",
             descripcion: "Maquina corta pelo",
             precio: "1.000.000 Gs",
@@ -67,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
             categoria: "maquina"
         },
         {
-            id: 8,
+            id: 5,
             nombre: "VGR V886 TRIMMER",
             descripcion: "Maquina patillera",
             precio: "$11.500",
@@ -75,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
             categoria: "maquina"
         },
         {
-            id:9,
+            id:6,
             nombre:"VGR V378 SHAVER",
             descripcion:"Maquina afeitadora",
             precio:"15.500",
@@ -83,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
             categoria:"maquina"
         },
         {
-            id:9,
+            id:7,
             nombre:"VGR VECTOR CLIPPER",
             descripcion:"Maquina corta pelo",
             precio:"15000",
