@@ -38,13 +38,13 @@ document.addEventListener("DOMContentLoaded", () => {
             id: 4,
             nombre: "WAHL VAPOR CLIPPER",
             descripcion: "Maquina corta pelo",
-            precio: "1.000.000 Gs",
+            precio: "1.050.000 Gs",
             imagen: "img/VAPOR_1.jpg",
             categoria: "maquina"
         },
         {
             id: 5,
-            nombre: "VGR V886 TRIMMER",
+            nombre: "VGR V886 CLIPPER",
             descripcion: "Maquina patillera",
             precio: "$11.500",
             imagen: "img/VGR.jpg",
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             id:7,
-            nombre:"VGR VECTOR CLIPPER",
+            nombre:"VGR VECTOR TRIMMER",
             descripcion:"Maquina corta pelo",
             precio:"15000",
             imagen:"img/VGR3.jpg",
