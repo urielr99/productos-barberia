@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
             id: 5,
             nombre: "VGR V886 CLIPPER",
             descripcion: "Maquina patillera",
-            precio: "$11.500",
+            precio: "750.000 Gs",
             imagen: "img/VGR.jpg",
             categoria: "maquina"
         },
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
             id:6,
             nombre:"VGR V378 SHAVER",
             descripcion:"Maquina afeitadora",
-            precio:"15.500",
+            precio:"400.000 Gs",
             imagen:"img/VGR2.jpg",
             categoria:"maquina"
         },
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
             id:7,
             nombre:"VGR VECTOR TRIMMER",
             descripcion:"Maquina corta pelo",
-            precio:"15000",
+            precio:"550.000 Gs",
             imagen:"img/VGR3.jpg",
             categoria:"maquina"
         }
