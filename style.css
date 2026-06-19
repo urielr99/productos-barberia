@@ -38,10 +38,10 @@ header {
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: 800;
+    font-size: 1rem;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
 }
 
 .logo span {
@@ -69,9 +69,9 @@ header {
 .hero {
     position: relative;
     text-align: center;
-    padding: 100px 20px;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(10,10,10,1)), 
-                url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80') center/cover;
+    padding: 350px 20px; 
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(10,10,10,1)), url('img/fondo.jpg') center top / cover no-repeat;
+    
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -331,6 +331,33 @@ footer {
 .btn-header-wp .phone-display {
     color: var(--text-primary); 
 }
+
+
+.btn-whatsapp-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; 
+    padding: 8px 18px; 
+    border-radius: 30px; 
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.btn-whatsapp-icon:hover {
+    background-color: var(--text-primary);
+    border-color: var(--text-primary);
+    color: var(--bg-main);
+    transform: scale(1.05);
+}
+
 
 @media (max-width: 768px) {
     .hero h1 { font-size: 2.2rem; }
