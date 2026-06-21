@@ -37,12 +37,7 @@ header {
     min-height: 110px;
 }
 
-.logo {
-    font-size: 1rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-}
+
 
 .logo span {
     color: var(--text-secondary);
@@ -69,14 +64,15 @@ header {
 .hero {
     position: relative;
     text-align: center;
-    padding: 350px 20px; 
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(10,10,10,1)), url('img/fondo.jpg') center top / cover no-repeat;
+    padding: 120px 20px; 
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(10,10,10,1)), url('img/BANNER_2.jpg') center top/ cover no-repeat;
     
     border-bottom: 1px solid var(--border-color);
+    border: none;
 }
 
 .hero h1 {
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 4px;
     margin-bottom: 15px;
@@ -296,22 +292,34 @@ footer {
     border-color: var(--text-primary);
 }
 
-.logo-medio {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+
+.logo-izquierda {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
-.logo-medio img {
-    height: 105px;
+.logo-izquierda img {
+    height: 70px;
     width: auto;
     display: block;
     mix-blend-mode: screen; 
     filter: brightness(1.2);
+}
+
+.texto-medio {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--text-primary); 
+}
+
+.texto-medio span {
+    color: var(--text-secondary);
 }
 
 .btn-header-wp {
