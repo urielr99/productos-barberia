@@ -307,15 +307,12 @@ footer {
 }
 
 .texto-medio {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
     font-size: 1rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    color: var(--text-primary); 
+    color: var(--text-primary);
+    text-align: center;
 }
 
 .texto-medio span {
