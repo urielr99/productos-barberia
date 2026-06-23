@@ -370,6 +370,15 @@ footer {
     header { flex-direction: column; gap: 15px; text-align: center; }
 }
 @media (max-width: 850px) {
+    .hero {
+        padding: 60px 15px; 
+        background-position: center; 
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+        letter-spacing: 2px;
+    }
     header {
         flex-direction: column;
         justify-content: center;
