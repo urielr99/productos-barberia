@@ -65,7 +65,7 @@ header {
     position: relative;
     text-align: center;
     padding: 120px 20px; 
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(10,10,10,1)), url('img/BANNER_2.jpg') center top/ cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(10,10,10,1)), url('img/banner_3.png') center / cover no-repeat;
     
     border-bottom: 1px solid var(--border-color);
     border: none;
@@ -229,8 +229,9 @@ header {
 }
 
 .btn-order:hover {
-    background-color: var(--whatsapp-green);
-    border-color: var(--whatsapp-green);
+    background-color: var(--text-primary);
+    border-color: var(--text-primary);
+    color: var(--bg-main);
 }
 
 .btn-order svg {
