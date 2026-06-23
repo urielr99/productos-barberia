@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
             id: 1,
             nombre: "JRL ONYX TRIMMER",
             descripcion: "Maquina patillera",
-            precio: "800.000 Gs",
+            precio: "870.000 Gs",
             imagen: "img/ONYXC.jpg",
             categoria: "maquina"
         },
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
             id: 3,
             nombre: "JRL ONYX CLIPPER",
             descripcion: "Maquita corta pelo",
-            precio: "900.000 Gs",
+            precio: "1.100.000 Gs",
             imagen: "img/ONYX_CC.jpg",
             categoria: "maquina"
         },
